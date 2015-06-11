@@ -1,0 +1,317 @@
+body {
+	margin: 0px;
+	}
+	
+	/* font-family: "SegoeUIRegular"; */
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+	}
+
+	/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+	}
+	
+	/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#header {
+	width: 1300px;
+	height: 51px;
+	background-color: #484649;
+	font-family: "SegoeUIRegular";
+	font-size: 17px;
+	color: #fefefe;
+	margin: 26px auto;
+
+	}
+
+#logo {
+	display: inline-block;
+	font-size: 36px;
+	margin: auto 237px auto 252px;
+	letter-spacing: 5px;
+	}
+	
+#header1 {
+	display: inline-block;
+	}
+
+.menu {
+	float: right;
+	margin: 0px 30px auto auto;
+	letter-spacing: 3px;
+	cursor: pointer;
+	}
+
+	/* Главное фото */
+.conteiner {
+	width: 1055px;
+	height: 637px;
+	background-image: url('images/foto.jpg');
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	}
+	
+	/* Верхний прозрачный блок */
+.prosr_verh {
+	width: 1300px;
+	height: 137px;
+	background-color: #e3dae0;
+	position: absolute;
+	margin-top: -20px;
+	left: 302px;
+	opacity: 0.4;
+	}
+	
+	/* БЛАГОДАРНОСТЬ ДЕЛАЕТ ВАС УСПЕШНЫМ */
+.BLAG {
+	font-size: 50px;
+	color: #484649;
+	font-family: 'SegoeUILight';
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 6px;
+	position: relative;
+	top: -20px;
+	left: auto;
+	}
+	
+	/* Создай свой дневник Гланый экран */
+.BLAG1 {
+	font-size: 24px;
+	color: #484649;
+	font-family: 'SegoeUIRegular';
+	text-align: left;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 390px;
+	right: 500px;
+	}
+	
+	/* Прозрачность серая для Создай свой дневник */
+.prosr_prav {
+	width: 340px;
+	height: 180px;
+	background-color: #e3dae0;
+	position: absolute;
+	right: 480px;
+	top: 392px;
+	opacity: 0.37;
+	}
+
+	/* Прозачная розовая кнопка на главном экране */
+.opacity {
+	position: relative;
+	bottom: -358px;
+	right: -649px;
+	opacity: 0.77;
+	cursor: pointer;
+	
+	}
+
+	/* Розовая кнопка */
+.button {
+	width: 350px;
+	height: 94px;
+	background-image: url('images/button.jpg');
+	margin: 70px auto;
+	cursor: pointer;
+	}
+	
+	/* Заголовок 1 */
+.H1 {
+	font-size: 50px;
+	color: #636164;
+	font-family: 'Times New Roman';
+	text-transform: capitalize;
+	text-align: center;
+	letter-spacing: 1px;
+	}
+
+	/* Основной текст */
+.H2 {
+	font-size: 24px;
+	color: #636164;
+	font-family: "SegoeUIRegular";	
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 0px;
+	}
+	
+.line {
+	display:block; margin:0px auto;
+	
+	}
+
+.recall {
+	position: relative;
+	left: 600px;
+	top: 40px;
+	margin-top: 10px;
+	}
+	
+/* .foto1{
+	float: left;
+	} */
+
+/* .content1 {
+	margin-left: 200px;
+	position: relative;
+	top: 17px;
+	} */
+.name {
+	font-size: 18px;
+	color: #5c595d;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 1px;
+	margin: 0px;
+	}
+
+.address {
+	font-size: 14px;
+	color: #5b575d;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 1px;
+	margin: 0px;
+	}
+.recall_1 {
+	font-size: 18pxpx;
+	color: #5b575d;
+	font-family: 'Calibri';
+	font-style: italic;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 1.7px;
+	margin-top: 10px;
+	}
+
+.foto2{
+	position: relative;
+	top: -160px;
+	margin-left: 550px;
+	margin-bottom: 40px;
+	height: 100%;
+	}
+
+
+.content2 {
+	height: 165px;
+	position: relative;
+	top: 65px;
+	margin-bottom: 80px;
+	}
+	
+.name_men {
+	font-size: 18px;
+	color: #5c595d;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 1px;
+	padding-left: 370px;
+	margin: 0px;
+	}
+
+.address_men {
+	font-size: 14px;
+	color: #5b575d;
+	font-family: 'Calibri';
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 1px;
+	padding-left: 370px;
+	margin: 0px;
+	}
+
+.foto{
+	float: left;
+	height: 100%;
+	}
+
+.content_txt {
+	position: relative;
+	top: 20px;
+	left: 50px;
+	}
+
+.line2 {
+		display:block; margin: 140px auto 0px auto;
+	}
+	
+.email_block {
+		width: 350px;
+		height: 92px;
+		background-color: #a5a2a7;
+		opacity: 0.23;
+		border: 1px solid black;
+		margin-left: 603px;
+		margin-top: 76px;
+		}
+		
+.email {
+	text-align: center;
+	font-size: 26px;
+	color: #000000;
+	font-family: 'SegoeUIRegular';
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 28px;
+		
+	}
+		 
+	/* Розовая кнопка нижняя*/
+.button_bottom {
+	width: 350px;
+	height: 94px;
+	background-image: url('images/button.jpg');
+	margin-top: -94px;
+	margin-left: 956px;
+	cursor: pointer;
+	}
+
+.footer {
+	width: 1300px;
+	height: 240px;
+	background-color: #484649;
+	font-family: "SegoeUIRegular";
+	font-size: 17px;
+	color: #fefefe;
+	margin: 200px auto 0 auto;
+
+	}
