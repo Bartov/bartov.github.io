@@ -1,5 +1,10 @@
-body {
-	margin: 0;
+html {
+	overflow-x: hidden;
+}
+
+.body {
+	margin: 0 auto;
+	min-width: 1300px;
 }
 
 	/* font-family: "SegoeUIRegular"; */
@@ -90,7 +95,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-.main__block1 {
+.main__title {
 	width: 1300px;
 	height: 137px;
 	background-color: #e3dae0;
@@ -101,7 +106,7 @@ body {
 	opacity: .4;
 }
 
-.main__content1 {
+.main__title-content {
 	font-size: 50px;
 	color: #484649;
 	font-family: "SegoeUILight", Arial, Helvetica, sans-serif;
@@ -113,7 +118,7 @@ body {
 	left: auto;
 }
 
-.main__block2 {
+.main__unit {
 	width: 340px;
 	height: 180px;
 	background-color: #e3dae0;
@@ -124,7 +129,7 @@ body {
 	opacity: .37;
 }
 
-.main__content2 {
+.main__unit-content {
 	width: 340px;
 	height: 180px;
 	font-size: 24px;
@@ -280,6 +285,11 @@ body {
 	margin-top: 100px;
 }
 
+.form {
+	position: relative;
+	left: 12px;
+}
+
 .form__email {
 	position: absolute;
 	left: 50%;
@@ -287,18 +297,18 @@ body {
 	margin-top: 60px;
 	display: block;
 	float: left;
-	background-color: #a5a2a7;
-	color: #fff;
+	background-color: #c7c4c8;
+	color: black;
 	margin-right: 2px;
 	width: 350px;
-	height: 90px;
+	height: 89px;
 	opacity: .4;
-	color: black;
 	text-align: center;
 	font-size: 26px;
 	font-family: "SegoeUIRegular", Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	letter-spacing: 1px;
+	border: none;
 }
 
 .btn__email {
@@ -306,6 +316,8 @@ body {
 	margin-top: 60px;
 	left: 50%;
 	margin-left: -6px;
+	width: 350px;
+	height: 91px;
 }
 
 .footer {
