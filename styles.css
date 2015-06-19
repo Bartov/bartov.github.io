@@ -3,8 +3,7 @@ html {
 }
 
 .body {
-	margin: 0 auto;
-	min-width: 1300px;
+	margin: 0;
 }
 
 	/* font-family: "SegoeUIRegular"; */
@@ -86,6 +85,11 @@ html {
 	color: #fff;
 	margin-top: 12px;
 	margin-right: 20px;
+}
+
+.wrapper {
+	margin: auto;
+	min-width: 1300px;
 }
 
 .main {
