@@ -2,7 +2,7 @@ html {
 	overflow-x: hidden;
 }
 
-.body {
+body {
 	margin: 0;
 }
 
@@ -104,10 +104,14 @@ html {
 	height: 137px;
 	background-color: #e3dae0;
 	position: absolute;
-	margin-top: -20px;
-	left: 50%;
-	margin-left: -650px;
-	opacity: .4;
+	top: 107px;
+	/*left: 50%;
+	margin-left: -650px;*/
+	margin: auto;
+	left: 0;
+	right: 0;
+	/*opacity: .4;*/
+	background: rgba(245,241,244, .4);
 }
 
 .main__title-content {
@@ -117,9 +121,10 @@ html {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 6px;
-	position: relative;
-	top: -20px;
-	left: auto;
+	position: absolute;
+	margin: auto;
+	right: 0;
+	left: 0;
 }
 
 .main__unit {
@@ -130,20 +135,22 @@ html {
 	top: 392px;
 	right: 50%;
 	margin-right: -405px;
-	opacity: .37;
+	background: rgba(245,241,244, .4);
+	/*opacity: .37;*/
 }
 
 .main__unit-content {
-	width: 340px;
-	height: 180px;
 	font-size: 24px;
 	color: #484649;
 	font-family: "SegoeUIRegular", Arial, Helvetica, sans-serif;
 	letter-spacing: 3px;
 	position: absolute;
-	top: 393px;
+	margin: auto;
+	right: 0;
+	left: 0;
+/*	top: 393px;
 	right: 50%;
-	margin-right: -435px;
+	margin-right: -435px;*/
 }
 
 .main__opacity {
@@ -167,6 +174,7 @@ html {
 	font-size: 50px;
 	color: #636164;
 	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
 	text-transform: capitalize;
 	text-align: center;
 	letter-spacing: 1px;
