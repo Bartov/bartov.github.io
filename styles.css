@@ -140,17 +140,13 @@ body {
 }
 
 .main__unit-content {
+	padding-left: 28px;
+	padding-top: 0px;
 	font-size: 24px;
 	color: #484649;
 	font-family: "SegoeUIRegular", Arial, Helvetica, sans-serif;
 	letter-spacing: 3px;
 	position: absolute;
-	margin: auto;
-	right: 0;
-	left: 0;
-/*	top: 393px;
-	right: 50%;
-	margin-right: -435px;*/
 }
 
 .main__opacity {
